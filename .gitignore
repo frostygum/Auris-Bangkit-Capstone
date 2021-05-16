@@ -1,0 +1,9 @@
+# Env & IDE configs
+.vscode
+.env
+
+# Datasets
+dataset
+
+# Models
+models
