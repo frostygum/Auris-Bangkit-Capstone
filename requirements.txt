@@ -6,3 +6,4 @@ pillow
 opencv-python
 ipykernel
 split-folders
+imutils
