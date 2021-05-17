@@ -13,38 +13,12 @@ async function loadModel(){
   console.log("this is inside loadModel()");
   var timer = 0;
   setInterval(function(){timer = timer+1;}, 1000);
-  const mymodel = await tf.loadLayersModel('model2.json');
+  const mymodel = await tf.loadLayersModel('model.json');
   const layer = mymodel.getLayer('dense_1');
   console.log("loadModel() done, time needed : "+ timer + " s");
   //console.log(tf.model({inputs: mymodel.inputs, outputs: layer.output}));
   return tf.model({inputs: mymodel.inputs, outputs: layer.output});
 }
-
-/*
-async function train() {
-  dataset.ys = null;
-  dataset.encodeLabels(3);
-  model = tf.sequential({
-    layers: [
-      tf.layers.flatten({inputShape: mobilenet.outputs[0].shape.slice(1)}),
-      tf.layers.dense({ units: 100, activation: 'relu'}),
-      tf.layers.dense({ units: 3, activation: 'softmax'})
-    ]
-  });
-  const optimizer = tf.train.adam(0.0001);
-  model.compile({optimizer: optimizer, loss: 'categoricalCrossentropy'});
-  let loss = 0;
-  model.fit(dataset.xs, dataset.ys, {
-    epochs: 10,
-    callbacks: {
-      onBatchEnd: async (batch, logs) => {
-        loss = logs.loss.toFixed(5);
-        console.log('LOSS: ' + loss);
-        }
-      }
-   });
-}*/
-
 
 async function predict() {
   //const mymodel = await tf.loadLayersModel('model.json');
@@ -81,11 +55,6 @@ async function predict() {
   }
 }
 
-/*
-function doTraining(){
-	train();
-}
-*/
 function startPredicting(){
 	isPredicting = true;
 	predict();
