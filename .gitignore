@@ -1,6 +1,6 @@
 # Env & IDE configs
 .vscode
-.env
+env_playground
 
 # Datasets
 dataset

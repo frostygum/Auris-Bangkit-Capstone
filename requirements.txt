@@ -4,6 +4,9 @@ tensorflow-gpu
 matplotlib
 pillow
 opencv-python
+sklearn
 ipykernel
 split-folders
 imutils
+seaborn
+pandas
