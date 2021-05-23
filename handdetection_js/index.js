@@ -5,7 +5,7 @@ const webcam = new Webcam(document.getElementById('videoElement'));
 //const dataset = new RPSDataset();
 //var rockSamples=0, paperSamples=0, scissorsSamples=0;
 let isPredicting = false;
-const letter = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+const letter = ["A","B","C","D","E"];
 
 init();
 
