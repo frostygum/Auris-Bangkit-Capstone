@@ -4,6 +4,8 @@ env_playground
 
 # Datasets
 dataset
+workspace
+content
 
 # Models
 models
