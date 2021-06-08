@@ -123,7 +123,7 @@ Then all the steps are already mention in following notebook. Here are final not
 
 
 <!-- RESOURCES -->
-## Recources
+## Resources
 Here are recources according to our implementation
 * [Notebooks](https://drive.google.com/drive/folders/18_GtZdz7H__eD_HL-DldvTHFquzrxOZ7)
 * [Datasets](https://drive.google.com/drive/u/2/folders/1mxGvB2SiYFainMwOEhbyTU0DKYDagxdT)
@@ -140,7 +140,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- REFRENCES -->
-## Refrences
+## References
 
 * [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/pdf/1801.04381.pdf)
 * [MobileNets: Efficient Convolutional Neural Networks for Mobile VisionApplications](https://arxiv.org/pdf/1704.04861.pdf)
