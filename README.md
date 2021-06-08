@@ -1,5 +1,3 @@
-# [Auris] Sign Language Detection
-
 <!-- 
 This readMe inspired and modified from
 https://github.com/othneildrew/Best-README-Template/
@@ -23,24 +21,11 @@ https://github.com/othneildrew/Best-README-Template/
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/frostygum/Auris-Bangkit-Capstone">
+    <img src="docs/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
+  <h3 align="center">Auris Project</h3>
 </p>
 
 
@@ -63,11 +48,9 @@ https://github.com/othneildrew/Best-README-Template/
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#resources">Resources</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -75,7 +58,14 @@ https://github.com/othneildrew/Best-README-Template/
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div>
+  <p align="center">
+    <img src="docs/screenshoot-2.jpg" width="200">
+    <img src="docs/screenshoot-1.jpg" width="200">
+    <img src="docs/screenshoot-3.jpg" width="200">
+    <img src="docs/screenshoot-4.jpg" width="200">
+  </p>
+</div>
 
 AURIS helps the mutes and deafs to communicate well with other people. AURIS is an artificial intelligence to detect BISINDO sign language runs on Android. WHO estimates in South-East Asia 401 million people have some degree of hearing loss (hear-it.org) and Indonesia is the fourth country with the highest deaf-mute rate in Southeast Asia (IDN Times).
 
@@ -125,7 +115,7 @@ This is an following steps to prepare your local computer.
 <!-- USAGE -->
 ## Usage
 
-Before using the model training notebook, you can use reduceSize.ipynb notebook to reduce the image size to you apropiate size use case. The file is at /image_manipulation/reduce_size.ipynb
+Before using the model training notebook, you can use dataPrep.ipynb notebook to reduce the image size to you apropiate size use case and split train test your data.
 Then all the steps are already mention in following notebook. Here are final notebook to be used:
 * handSignGestureMobileNet.ipynb 
 * handSignGestureMobileNetTFRecord.ipynb
@@ -139,6 +129,8 @@ Here are recources according to our implementation
 * [Datasets](https://drive.google.com/drive/u/2/folders/1mxGvB2SiYFainMwOEhbyTU0DKYDagxdT)
 * [Models](https://drive.google.com/drive/folders/1-ARQZvWNCsgWLT-dfBflF4Y13kzB5rCT)
 * [Deployed Android](https://drive.google.com/drive/folders/1t2ZbTjktglCBmBJUF1N0w8u1DD4YnXFh)
+* [Android Repository](https://github.com/Evandio-Martin/AURIS-Android)
+
 
 
 <!-- LICENSE -->
@@ -161,14 +153,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
+[contributors-url]: https://github.com/frostygum/Auris-Bangkit-Capstone/graphs/contributors
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/frostygum/Auris-Bangkit-Capstone/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://www.linkedin.com/in/juan-anthonius-kusjadi/
