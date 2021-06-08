@@ -4,20 +4,6 @@ https://github.com/othneildrew/Best-README-Template/
  -->
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -147,14 +133,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * [Mobile Sign Language Recognition for Bahasa Indonesia using Convolutional Neural Network](https://dl.acm.org/doi/abs/10.1145/3282353.3282356)
 * [Machine learning model for sign language interpretation using webcam images](https://ieeexplore.ieee.org/document/6839279)
 * [RESPON TUNARUNGU TERHADAP PENGGUNAAN SISTEM BAHASA ISYARAT INDONESA (SIBI) DAN BAHASA ISYARAT INDONESIA (BISINDO) DALAM KOMUNIKASI](http://ejournal.uin-suka.ac.id/pusat/inklusi/article/view/1109)
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/frostygum/Auris-Bangkit-Capstone/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/frostygum/Auris-Bangkit-Capstone/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/juan-anthonius-kusjadi/
