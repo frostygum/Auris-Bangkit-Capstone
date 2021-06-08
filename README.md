@@ -12,6 +12,10 @@ https://github.com/othneildrew/Best-README-Template/
   </a>
 
   <h3 align="center">Auris Project</h3>
+  
+  <p>
+  This is machine learning part of The auris project, you can explore and find out what you want according to <bold>Table of Contents</bold> bellow. If you need to find android implementation, please visit <a href="https://github.com/Evandio-Martin/AURIS-Android">this link</a>.
+  </p>
 </p>
 
 
